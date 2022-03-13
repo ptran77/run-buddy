@@ -34,8 +34,8 @@
     </header>
 
     <!-- hero/jumbotron -->
-    <section>
-      <div>
+    <section class="hero">
+      <div class="hero-form">
         <h3>Get Started Today</h3>
         <p>
           Fill out this form and one of our trainers will schedule a consult
@@ -43,13 +43,20 @@
         <!-- Add form element -->
         <form>
           <label for="name">Enter full name:</label>
-          <input type="text" placeholder="Your Name" name="name" id="name" />
+          <input
+            type="text"
+            placeholder="Your Name"
+            name="name"
+            id="name"
+            class="form-input"
+          />
           <label for="email">Enter email address:</label>
           <input
             type="email"
             placeholder="Email Address"
             name="email"
             id="email"
+            class="form-input"
           />
           <label for="phone">Enter email a telephone number:</label>
           <input
@@ -57,6 +64,7 @@
             placeholder="Phone Number"
             name="phone"
             id="phone"
+            class="form-input"
           />
           <p>
             Have you wotked out with a trainer before?
